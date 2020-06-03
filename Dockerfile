@@ -1,4 +1,4 @@
-FROM fedora
+FROM fedora:latest
 
 LABEL maintainer=brian@phospher.com
 
