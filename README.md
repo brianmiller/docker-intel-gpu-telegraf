@@ -33,5 +33,3 @@ Just add my repository: "**https://github.com/brianmiller/docker-templates**" to
 ##### The actual command I use to start the container in my environment, when I'm not using Unraid.
 `docker run --rm -ti --privileged=true --device /dev/dri:/dev/dri --ip 2.2.20.29 --network br0 --env telegraf_hostname="cerebrum" --env influx_url="http://37648-influxdb1.phospher.com:8086" --env influx_db="telegraf" --env influx_password="" --env influx_skip_db_creation="false"  theoriginalbrian/intel-gpu-telegraf`
 
-
-
