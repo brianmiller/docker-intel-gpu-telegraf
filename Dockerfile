@@ -17,6 +17,4 @@ RUN rm -rf /var/cache/*
 
 COPY ./opt/intel-gpu-telegraf /opt/intel-gpu-telegraf
 
-VOLUME /config
-
 CMD ["/usr/bin/telegraf", "--config", "/opt/intel-gpu-telegraf/telegraf.conf"]
