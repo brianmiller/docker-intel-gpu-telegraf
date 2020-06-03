@@ -1,4 +1,4 @@
-# docker-intel-gpu-telegraf
+# Intel iGPU utilization to Grafana: intel-gpu-telegraf
 
 <img width=150px height=150px src="https://github.com/brianmiller/docker-templates/raw/master/intel-gpu-telegraf/intel_telegraf.png"></img>
 
